@@ -1,0 +1,180 @@
+.formWrapper {
+  background-color: var(--secondary);
+}
+
+.form {
+  width: 90%;
+  max-width: 50rem;
+  margin: auto;
+  background-color: var(--secondary);
+}
+
+.fieldsWrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1.4rem;
+  width: 100%;
+}
+
+.fieldsWrapper div {
+  position: relative;
+  width: 100%;
+}
+
+.fieldsWrapper .fieldWrapper::after,
+.textArea::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 0.3rem;
+  height: 100%;
+  background-color: var(--accent);
+  transform: translateX(calc(-100% - 0.3rem));
+}
+
+.fieldsWrapper input,
+.textArea textarea {
+  position: relative;
+  font-size: 1rem;
+  font-family: var(--text-font);
+  color: var(--secondary);
+  width: 100%;
+  padding: 0.5rem 0.7rem;
+  border: solid 3px var(--accent);
+  border-left: solid 15px var(--accent);
+}
+
+.textArea {
+  position: relative;
+  margin-top: 0.8rem;
+}
+
+.textArea textarea {
+  height: 15rem;
+  display: block;
+}
+
+.fieldsWrapper input::placeholder,
+.textArea textarea::placeholder {
+  font-size: 1rem;
+  font-family: var(--text-font);
+}
+
+.fieldsWrapper input:focus,
+.textArea textarea:focus {
+  outline: none;
+}
+
+.fileInputWrapper {
+  margin-top: 0.8rem;
+  width: 100%;
+  position: relative;
+}
+
+.fileInput {
+  position: absolute;
+  width: 0.1px;
+  height: 0.1px;
+  opacity: 0;
+  overflow: hidden;
+  z-index: -1;
+}
+
+.fileInputLabel {
+  display: block;
+  width: 100%;
+  padding: 0.5rem 0.7rem;
+  font-size: 1rem;
+  font-family: var(--text-font);
+  color: var(--secondary);
+  border: solid 3px var(--accent);
+  border-left: solid 15px var(--accent);
+  background-color: white;
+  cursor: pointer;
+  text-align: left;
+}
+
+.fileInput:focus {
+  outline: none;
+}
+
+.fileList {
+  margin-top: 0.8rem;
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.fileItem {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0.5rem 0.7rem;
+  background-color: var(--background);
+  border: solid 2px var(--accent);
+  border-left: solid 15px var(--accent);
+}
+
+.fileName {
+  font-size: 0.9rem;
+  font-family: var(--text-font);
+  color: var(--secondary);
+  flex: 1;
+  overflow: hidden;
+}
+
+.removeButton {
+  background-color: transparent;
+  border: none;
+  color: var(--accent);
+  font-size: 1.5rem;
+  font-weight: bold;
+  cursor: pointer;
+  padding: 0 0.5rem;
+  transition: color 0.2s;
+}
+
+.removeButton:hover {
+  color: var(--secondary);
+}
+
+.error {
+  padding: 0.5rem 1rem;
+  color: red;
+}
+
+.buttonsWrapper {
+  margin-top: 0.8rem;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.success {
+  position: fixed;
+  bottom: 10%;
+  right: 0;
+  background-color: var(--secondary);
+  font-family: var(--heading-font);
+  font-weight: 600;
+  font-size: 1.4rem;
+  color: var(--accent);
+  text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.4);
+  padding: 0.5rem 1rem;
+  box-shadow: -3px 3px 10px rgba(0, 0, 0, 0.6);
+  transform: translatex(calc(100% + 10px));
+  transition: transform 0.4s ease-in-out;
+  z-index: 9999;
+}
+
+.success.visible {
+  transform: translatex(0);
+}
+
+@media (max-width: 550px) {
+  .fieldsWrapper {
+    flex-direction: column;
+    gap: 0.8rem;
+  }
+}

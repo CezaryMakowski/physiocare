@@ -1,0 +1,80 @@
+.section {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0 2rem;
+}
+
+.images {
+  width: 25rem;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  z-index: 2;
+}
+
+.images .bigImage {
+  width: 18rem;
+  height: auto;
+  flex-shrink: 0;
+}
+
+.images .smallImage {
+  width: 9rem;
+  height: auto;
+  flex-shrink: 0;
+  margin-left: -6rem;
+  margin-bottom: -2rem;
+}
+
+.content {
+  position: relative;
+  background-color: var(--secondary);
+  padding-block: 1rem;
+  padding-right: 1rem;
+  padding-left: 8rem;
+  margin-left: -8rem;
+}
+
+.content > h2 {
+  margin-bottom: 0.5rem;
+}
+
+.btn {
+  margin-top: 1rem;
+  margin-left: auto;
+}
+
+.curve {
+  display: none;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 3rem;
+  transform: translateY(-100%) scaleY(-1);
+  fill: var(--secondary);
+}
+
+@media (max-width: 790px) {
+  .section {
+    margin-top: 2rem;
+    padding-inline: 1rem;
+    flex-direction: column;
+  }
+  .content {
+    margin-left: 0;
+    padding-left: 1rem;
+    padding-top: 3rem;
+    margin-top: -1rem;
+    text-align: center;
+  }
+
+  .images .smallImage {
+    margin-bottom: -1rem;
+  }
+
+  .curve {
+    display: block;
+  }
+}

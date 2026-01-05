@@ -1,0 +1,41 @@
+.slide {
+  display: flex;
+  align-items: center;
+  width: 100%;
+}
+
+.slide .img {
+  width: 25vw;
+  max-width: 17rem;
+  z-index: 1;
+}
+
+.slide .wrapper {
+  padding: 10px;
+}
+
+.slide .content {
+  position: relative;
+  padding-block: 1rem;
+  padding-right: 1rem;
+  padding-left: 5.5rem;
+  margin-left: -5rem;
+  background-color: rgba(29, 75, 102, 0.75);
+  box-shadow: 0 0 15px rgba(255, 255, 255, 0.5);
+}
+
+.slide .btn {
+  margin-left: auto;
+  margin-top: 0.8rem;
+}
+
+@media (max-width: 860px) {
+  .img {
+    display: none;
+  }
+
+  .slide .content {
+    padding-left: 1rem;
+    margin-left: 0;
+  }
+}

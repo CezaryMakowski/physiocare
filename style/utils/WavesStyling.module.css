@@ -1,0 +1,21 @@
+.waves {
+  position: relative;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 100%;
+  min-width: 35rem;
+  height: 3rem;
+  display: block;
+  margin-bottom: -1px;
+}
+
+.curve {
+  position: relative;
+  left: 50%;
+  transform: translateX(-50%);
+  fill: var(--secondary);
+  width: 100%;
+  min-width: 35rem;
+  height: 3rem;
+  display: block;
+}

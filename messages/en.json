@@ -1,0 +1,311 @@
+{
+  "navbar": {
+    "home": "Home",
+    "offer": "Offer",
+    "team": "Team",
+    "pricing": "Pricing",
+    "contact": "Contact",
+    "faq": "FAQ"
+  },
+  "cookieBanner": {
+    "content": "This website uses cookies to enhance functionality and analyze traffic. By continuing to use the site, you agree to their use."
+  },
+  "home": {
+    "slider": {
+      "slides": [
+        {
+          "src": "/physiocare_dominik_pacjent.webp",
+          "title": "Professional physiotherapy in Szczecin",
+          "description": "Individual orthopedic, neurological, and oncological rehabilitation provided by the experienced PhysioCare physiotherapy team."
+        },
+        {
+          "src": "/fizjoterapia_pediatryczna.webp",
+          "title": "Pediatric physiotherapy and corrective gymnastics",
+          "description": "Supporting proper motor development in children. Posture correction and safe exercises in a friendly and welcoming environment."
+        },
+        {
+          "src": "/masaz_leczniczy.webp",
+          "title": "Therapeutic and relaxation massage",
+          "description": "Pain, tension, and stress reduction. Therapeutic massage, lymphatic drainage, and pregnancy massage at the PhysioCare clinic."
+        },
+        {
+          "src": "/fizjoterapia_uroginekologiczna.webp",
+          "title": "Urogynecological physiotherapy",
+          "description": "Safe and individualized therapy for women during pregnancy, after childbirth, and with pelvic floor disorders. Improve your quality of life, restore function, and take care of your intimate health under the supervision of specialists."
+        }
+      ],
+      "linkText": "Book an appointment"
+    },
+    "important": {
+      "title": "Why choose us?",
+      "content": "At PhysioCare, we combine experience, modern therapeutic methods, and an individual approach to every patient. Our team of specialists—physiotherapists, massage therapists, and trainers—effectively helps with pain management, post-injury rehabilitation, urogynecological and dental physiotherapy, as well as medical training. We focus on comfort, safety, and support, helping our patients return to full mobility and better well-being.",
+      "linkText": "Book an appointment"
+    },
+    "pointsOfInterest": {
+      "title": "What sets us apart?",
+      "points": [
+        {
+          "src": "/indywidualne_podejscie.webp",
+          "title": "Individual approach",
+          "description": "At PhysioCare, every therapy plan is tailored to your needs—whether you require post-injury rehabilitation, urogynecological physiotherapy, or therapeutic massage. This allows you to recover faster, minimize the risk of complications, and be confident that your health is in the hands of specialists."
+        },
+        {
+          "src": "/kompleksowa_terapia.webp",
+          "title": "Comprehensive services in one place",
+          "description": "At our clinic in Szczecin, we combine orthopedic, neurological, oncological, and dental physiotherapy with medical training, Pilates, and massage therapy. This means you receive complete care without the need to seek multiple specialists—everything under one roof, in a consistent and professional treatment process."
+        },
+        {
+          "src": "/doswiadczony_zespol.webp",
+          "title": "Experienced and certified team",
+          "description": "Our team consists of physiotherapists, massage therapists, and trainers with many years of experience, continuously improving their qualifications using the latest therapeutic methods. This ensures safe, effective, and modern rehabilitation in Szczecin, making your recovery faster and more comfortable."
+        }
+      ]
+    },
+    "aboutUs": {
+      "title": "Who We Are",
+      "subtitle": "Professional physiotherapy in Szczecin",
+      "content": "At PhysioCare, we combine experience, modern methods, and an individual approach to effectively restore mobility and improve quality of life. Our team of specialists offers orthopedic, neurological, oncological, urogynecological, and dental physiotherapy, medical training, Pilates, and therapeutic massage—all in one place, in Szczecin.",
+      "linkText": "Meet our team"
+    },
+    "contact": {
+      "title": "Get in Touch",
+      "nameLabel": "Name",
+      "emailLabel": "Email",
+      "messageLabel": "Message",
+      "submitButton": "Send",
+      "attachmentLabel": "Attach files",
+      "success": "Message sent :)",
+      "formErrors": {
+        "email": "invalid email address",
+        "name": {
+          "max": "name must be no longer than 20 characters",
+          "required": "this field is required"
+        },
+        "message": {
+          "required": "this field is required"
+        },
+        "file": {
+          "maxAmmount": "You can upload a maximum of 3 files.",
+          "maxSize": "One of the files exceeds 4MB.",
+          "format": "Unsupported file format (only .jpg, .jpeg, .png, .pdf are allowed)."
+        },
+        "general": "Oops! Something went wrong"
+      }
+    }
+  },
+  "offer": {
+    "title": "What problems can we help you solve?",
+    "items": [
+      {
+        "src": "/fizjoterapia_ortopedyczna.webp",
+        "title": "Orthopedic physiotherapy",
+        "content": [
+          "Orthopedic physiotherapy at the PhysioCare clinic in Szczecin is dedicated to patients with musculoskeletal dysfunctions, injuries, and muscle-joint overloads. We help people after injuries, surgical procedures, and those suffering from chronic pain.",
+          "Therapy is based on individual diagnostics, manual therapy, and exercises aimed at restoring mobility and improving quality of life."
+        ]
+      },
+      {
+        "src": "/fizjoterapia_neurologiczna.webp",
+        "title": "Neurological physiotherapy",
+        "content": [
+          "We offer neurological physiotherapy in Szczecin for patients with diseases and disorders of the nervous system. It is intended for people after strokes, with neurological conditions (e.g. multiple sclerosis), as well as coordination and motor control disorders.",
+          "The rehabilitation process is carried out at a safe pace, focusing on improving motor functions, independence, and overall quality of daily life."
+        ]
+      },
+      {
+        "src": "/fizjoterapia_onkologiczna.webp",
+        "title": "Oncological physiotherapy",
+        "content": [
+          "At PhysioCare, we provide oncological physiotherapy in Szczecin, supporting patients during and after cancer treatment. Therapy helps improve mobility, reduce swelling, and restore function after surgery and systemic treatment.",
+          "Each therapy plan is tailored to the patient's current health condition, ensuring full safety and empathy."
+        ]
+      },
+      {
+        "src": "/fizjoterapia_stomatologiczna.webp",
+        "title": "Dental physiotherapy (temporomandibular joint)",
+        "content": [
+          "We specialize in dental physiotherapy in Szczecin, including therapy of the temporomandibular joint (TMJ). We help patients with conditions such as bruxism, jaw pain, joint clicking, jaw locking, and excessive tension of facial muscles.",
+          "Therapy includes manual techniques, trigger point therapy, preparation for dental procedures, and post-treatment rehabilitation."
+        ]
+      },
+      {
+        "src": "/fizjoterapia_uroginekologiczna.webp",
+        "title": "Urogynecological physiotherapy",
+        "content": [
+          "We provide urogynecological physiotherapy in Szczecin for women during pregnancy, after childbirth, and with pelvic floor muscle disorders. Therapy helps with urinary incontinence, organ prolapse, diastasis recti, and other pelvic pain conditions. Men with urological problems or after urological procedures can also benefit from urogynecological physiotherapy.",
+          "We work in an atmosphere of full comfort, with an individual approach and modern therapeutic methods."
+        ]
+      },
+      {
+        "src": "/fizjoterapia_kobiet_w_ciazy.webp",
+        "title": "Physiotherapy for pregnant women and postpartum",
+        "content": [
+          "We offer physiotherapy for pregnant and postpartum women in Szczecin, aimed at reducing pain associated with pregnancy and supporting physical activity during pregnancy and the postpartum period.",
+          "Therapy includes exercises, medical training, massage, and education tailored to the stage of pregnancy or postpartum recovery."
+        ]
+      },
+      {
+        "src": "/fizjoterapia_pediatryczna.webp",
+        "title": "Pediatric physiotherapy and corrective gymnastics",
+        "content": [
+          "At PhysioCare, we provide physiotherapy for children in Szczecin, including corrective gymnastics supporting proper motor development.",
+          "We help correct posture defects and improve coordination, strength, and motor skills in a friendly and safe environment."
+        ]
+      },
+      {
+        "src": "/trening_medyczny.webp",
+        "title": "Medical / personal training",
+        "content": [
+          "Medical training in Szczecin combines physiotherapy with physical activity. It is an ideal solution for people after injuries, with chronic pain, and for patients who want to safely return to sports or everyday activity.",
+          "Each training session is individually tailored and conducted under the supervision of specialists."
+        ]
+      },
+      {
+        "src": "/pilates.webp",
+        "title": "Pilates",
+        "content": [
+          "We offer Pilates in Szczecin in the form of individual sessions, duets, and small groups. Pilates is suitable for anyone looking to try a new form of movement or find a physical activity tailored to their needs.",
+          "Classes are conducted on mats using additional equipment such as dumbbells and Pilates rings."
+        ]
+      },
+      {
+        "src": "/masaz_leczniczy.webp",
+        "title": "Therapeutic and relaxation massage",
+        "content": [
+          "We provide therapeutic and relaxation massage in Szczecin, helping reduce pain, muscle tension, and stress. Our offer includes classic massage, lymphatic drainage, pregnancy massage, and specialized massages.",
+          "Massage is an excellent complement to physiotherapy and an effective form of regeneration."
+        ]
+      },
+      {
+        "src": "/kobido.webp",
+        "title": "Kobido massage",
+        "content": [
+          "Our clinic also offers Kobido massage in Szczecin - a lifting facial massage that improves skin tension, reduces muscle tension, and supports natural regenerative processes."
+        ]
+      }
+    ]
+  },
+  "team": {
+    "title": "Meet our team",
+    "members": {
+      "dominik": {
+        "src": "/Dominik_Chmura.webp",
+        "name": "Dominik Chmura",
+        "description": "<p>Dominik Chmura is an experienced physiotherapist in Szczecin and the owner of the PhysioCare physiotherapy clinic in Szczecin. He specializes in working with patients requiring orthopedic, neurological, cardiological, pulmonological, and oncological physiotherapy, helping people struggling with pain, movement limitations, injuries, and chronic conditions.</p><h3>Scope of specialization and areas of practice</h3><p>On a daily basis, he provides rehabilitation in the clinic and throughout Szczecin, combining modern therapeutic methods with individually tailored treatment plans. His goal is not only to reduce pain but above all to restore function, improve quality of life, and ensure a safe return to everyday activities.</p><h3>Patient-centered approach and therapy effectiveness</h3><p>Patients value Dominik for his empathy, treatment effectiveness, and partnership-based approach, which builds trust and a sense of safety. He focuses on patient education, motivating active participation in the treatment process, and providing comprehensive support at every stage of rehabilitation.</p><h3>Leader of the PhysioCare team in Szczecin</h3><p>As the head of the PhysioCare clinic in Szczecin, Dominik ensures a high standard of services, a coherent and holistic approach to physiotherapy, and individualized care for every patient. Thanks to this, PhysioCare is a place where patients can rely on professional and effective physiotherapy in Szczecin.</p>"
+      },
+      "patrycja": {
+        "src": "/Patrycja_Makowska.webp",
+        "name": "Patrycja Makowska",
+        "description": "<p>Patrycja is a certified massage therapist, physiotherapy student, and personal trainer working at the PhysioCare physiotherapy clinic in Szczecin. She is a final-year physiotherapy student at the University of Education and Therapy in Szczecin. She gained professional experience during internships in numerous clinics in Szczecin, working with patients with diverse therapeutic needs.</p><p>She holds qualifications as a massage therapist, personal trainer, fitness instructor, and pole dance instructor. During her studies, she focused particularly on physiotherapy for pregnant and postpartum women, urogynecological physiotherapy, and orthopedic physiotherapy across different age groups.</p><h3>You can book an appointment with Patrycja for:</h3><ul><li>medical and personal training in Szczecin,</li><li>massage, including pregnancy massage in Szczecin,</li><li>corrective gymnastics for children,</li><li>Pilates in Szczecin (1:1, 1:2 sessions, and small groups up to 3 people).</li></ul><h3>Courses and training:</h3><ul><li>Comprehensive urogynecological physiotherapy (Module I),</li><li>Shoulder - it doesn't have to be complicated,</li><li>Hernia and diastasis recti,</li><li>Impact of organ prolapse on pelvic physiological functions,</li><li>Certified massage therapist.</li></ul><p>By combining academic knowledge, practical experience, and a passion for movement, Patrycja effectively supports patients seeking physiotherapy and medical training in Szczecin, ensuring safety, functionality, and comfort throughout therapy.</p>"
+      },
+      "beata": {
+        "src": "/Beata_Piskorska.webp",
+        "name": "Beata Piskorska",
+        "description": "<p>Beata is an experienced massage therapist working at the PhysioCare massage clinic in Szczecin. She specializes in a wide range of massage techniques that support regeneration, reduce muscle tension, and improve overall well-being.</p><p>In her daily practice, she performs relaxation and classic massage as well as therapeutic massage in Szczecin, tailored to individual patient needs. She pays special attention to precision and comfort during treatments.</p><h3>Massage services provided by Beata:</h3><ul><li>classic massage,</li><li>relaxation massage,</li><li>therapeutic massage in Szczecin,</li><li>Kobido massage (lifting facial massage),</li><li>lymphatic drainage,</li><li>anti-cellulite massage,</li><li>candle, bamboo, and Chinese cupping massage,</li><li>pregnancy massage in Szczecin.</li></ul><p>Beata treats massage as a combination of knowledge, technique, and genuine care for others. She has also completed a first aid course. She continuously develops her skills and plans further training in Pilates, aerobics, and facial taping as a complement to Kobido massage.</p><p>Thanks to her individual approach and wide range of treatments, Beata helps patients looking for professional massage in Szczecin, effective regeneration, and moments of deep relaxation.</p>"
+      },
+      "joanna": {
+        "src": "/Joanna_Pogorelo.webp",
+        "name": "Joanna Pogoreło",
+        "description": "<p>Asia is an experienced physiotherapist working at a physiotherapy clinic in Szczecin, specializing in dental physiotherapy and therapy of temporomandibular joint dysfunctions.</p><p>She helps patients with conditions such as bruxism, jaw pain, TMJ locking, disc displacement, and excessive tension of facial and jaw muscles. She also prepares patients for dental procedures, including tooth extractions, and provides post-treatment rehabilitation. Additionally, she works with orthopedic, neurological, and cardiological patients.</p><h3>Therapies provided by Asia:</h3><ul><li>dental physiotherapy (TMJ) in Szczecin,</li><li>temporomandibular joint therapy,</li><li>scar and trigger point therapy,</li><li>lymphatic drainage,</li><li>medical and functional training,</li><li>pregnancy massage,</li><li>physical therapy treatments.</li></ul><h3>Courses and training:</h3><ul><li>deep tissue massage and myofascial release,</li><li>PFS - personal trainer,</li><li>temporomandibular joints - diagnostics and therapy (Modules I & II),</li><li>rehabilitation taping.</li></ul><p>Thanks to her individual approach and modern therapeutic methods, Asia effectively supports patients seeking dental physiotherapy and comprehensive rehabilitation in Szczecin.</p>"
+      }
+    }
+  },
+
+  "pricing": {
+    "title": "Pricing",
+    "services": [
+      {
+        "category": "Pilates",
+        "items": [
+          {
+            "name": "Single session",
+            "price": "50 PLN"
+          },
+          { "name": "4-session pass", "price": "170 PLN" },
+          { "name": "Individual session", "price": "160 PLN" }
+        ]
+      },
+      {
+        "category": "Training",
+        "items": [
+          { "name": "Medical training", "price": "160 PLN" },
+          { "name": "Personal training", "price": "160 PLN" },
+          { "name": "Partner training", "price": "200 PLN" }
+        ]
+      },
+      {
+        "category": "Massage",
+        "items": [
+          { "name": "Classic massage", "price": "160 PLN" },
+          { "name": "Kobido", "price": "200 PLN" },
+          { "name": "Facial taping", "price": "30 PLN" },
+          { "name": "Hot stone massage (30 min)", "price": "120 PLN" },
+          { "name": "Hot stone massage (60 min)", "price": "200 PLN" },
+          { "name": "Relaxation massage", "price": "160 PLN" }
+        ]
+      },
+      {
+        "category": "Physiotherapy",
+        "items": [
+          { "name": "Consultation (30 min)", "price": "110 PLN" },
+          { "name": "Manual therapy (30 min)", "price": "110 PLN" },
+          { "name": "Scar therapy", "price": "160 PLN" },
+          { "name": "Trigger point therapy", "price": "180 PLN" },
+          { "name": "Kinesiotaping", "price": "30/50 PLN" },
+          { "name": "Dental rehabilitation", "price": "180 PLN" },
+          { "name": "Home visit", "price": "250 PLN" }
+        ]
+      },
+      {
+        "category": "Physical therapy",
+        "items": [
+          {
+            "name": "Electrotherapy / Ultrasound / Laser / Magnetic field (1 joint)",
+            "price": "25 PLN"
+          },
+          { "name": "Shockwave therapy (1 session)", "price": "60 PLN" }
+        ]
+      }
+    ]
+  },
+  "faq": {
+    "items": [
+      {
+        "q": "What does the first visit look like?",
+        "a": "The first visit includes a detailed interview, functional assessment, and the creation of an individual therapy plan. In many cases, therapy begins during the first appointment to relieve pain as quickly as possible."
+      },
+      {
+        "q": "How should I prepare for my visit?",
+        "a": "Wear comfortable clothing that allows free movement. If you have medical imaging results (X-ray, MRI, ultrasound), please bring them with you."
+      },
+      {
+        "q": "How long does therapy last?",
+        "a": "A standard session lasts 45-60 minutes. The duration and frequency depend on the diagnosis and progress."
+      },
+      {
+        "q": "Can I cancel my appointment?",
+        "a": "Yes. Please inform us at least 24 hours in advance so the slot can be offered to another patient. Same-day cancellations may incur a fee."
+      },
+      {
+        "q": "Do you offer physiotherapy for pregnant and postpartum women?",
+        "a": "Yes. We provide physiotherapy for pregnant and postpartum women in Szczecin, including back pain therapy, medical training, massage, and urogynecological physiotherapy. All treatments are safe and adapted to the stage of pregnancy or postpartum recovery."
+      },
+      {
+        "q": "Is a home visit possible?",
+        "a": "Yes. We offer home visits in Szczecin and surrounding areas. Please contact us by phone or email to arrange details and availability."
+      },
+      {
+        "q": "Do you treat children?",
+        "a": "Yes. We offer pediatric physiotherapy and corrective gymnastics in Szczecin, supporting proper motor development and posture correction."
+      },
+      {
+        "q": "How can I book an appointment at PhysioCare in Szczecin?",
+        "a": "Appointments can be booked by phone, email, via the Booksy app, or through the contact form available on the PhysioCare Szczecin website."
+      },
+      {
+        "q": "Do I need a referral to book an appointment?",
+        "a": "No. Physiotherapy at PhysioCare in Szczecin is provided privately, so a medical referral is not required. Simply book an appointment and report your symptoms. If you have a referral, you may bring it, but it is not mandatory."
+      }
+    ]
+  }
+}

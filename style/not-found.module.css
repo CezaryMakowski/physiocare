@@ -1,0 +1,22 @@
+.main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.section {
+  width: max-content;
+}
+
+.section p {
+  background-color: var(--secondary);
+  padding-inline: 2rem;
+  padding-bottom: 1rem;
+}
+
+.section svg {
+  fill: var(--secondary);
+  width: 100%;
+  height: auto;
+  display: block;
+}

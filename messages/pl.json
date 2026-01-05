@@ -1,0 +1,310 @@
+{
+  "navbar": {
+    "home": "Strona główna",
+    "offer": "Oferta",
+    "team": "Zespół",
+    "pricing": "Cennik",
+    "contact": "Kontakt",
+    "faq": "FAQ"
+  },
+  "cookieBanner": {
+    "content": "Ta strona używa ciasteczek, aby poprawić działanie i analizować ruch. Kontynuując akceptujesz ich użycie."
+  },
+  "home": {
+    "slider": {
+      "slides": [
+        {
+          "src": "/physiocare_dominik_pacjent.webp",
+          "title": "Profesjonalna fizjoterapia w Szczecinie",
+          "description": "Indywidualna rehabilitacja ortopedyczna, neurologiczna i onkologiczna prowadzona przez doświadczony zespół fizjoterapeutów PhysioCare."
+        },
+        {
+          "src": "/fizjoterapia_pediatryczna.webp",
+          "title": "Fizjoterapia dzieci i gimnastyka korekcyjna",
+          "description": "Wsparcie prawidłowego rozwoju ruchowego dzieci. Korekcja wad postawy i bezpieczne ćwiczenia w przyjaznej atmosferze."
+        },
+        {
+          "src": "/masaz_leczniczy.webp",
+          "title": "Masaż leczniczy i relaksacyjny",
+          "description": "Redukcja bólu, napięcia i stresu. Masaż leczniczy, drenaż limfatyczny oraz masaż kobiet w ciąży w gabinecie PhysioCare."
+        },
+        {
+          "src": "/fizjoterapia_uroginekologiczna.webp",
+          "title": "Fizjoterapia uroginekologiczna",
+          "description": "Bezpieczna i indywidualna terapia dla kobiet w ciąży, po porodzie oraz z problemami dna miednicy. Popraw komfort życia, przywróć sprawność i zadbaj o zdrowie intymne pod okiem specjalistów."
+        }
+      ],
+      "linkText": "Umów się"
+    },
+    "important": {
+      "title": "Dlaczego warto wybrać właśnie nas?",
+      "content": "W PhysioCare łączymy doświadczenie, nowoczesne metody terapeutyczne i indywidualne podejście do każdego pacjenta. Nasz zespół specjalistów - fizjoterapeutów, masażystów i trenerów - skutecznie pomaga w bólu, rehabilitacji po urazach, fizjoterapii uroginekologicznej, stomatologicznej oraz treningu medycznym. Stawiamy na komfort, bezpieczeństwo i wsparcie, dzięki czemu pacjenci wracają do pełnej sprawności i lepszego samopoczucia.",
+      "linkText": "Umów się"
+    },
+    "pointsOfInterest": {
+      "title": "Co nas wyróżnia?",
+      "points": [
+        {
+          "src": "/indywidualne_podejscie.webp",
+          "title": "Indywidualne podejście",
+          "description": "W PhysioCare każdy plan terapii jest dopasowany do Twoich potrzeb - niezależnie czy potrzebujesz rehabilitacji po urazie, fizjoterapii uroginekologicznej, czy masażu leczniczego. Dzięki temu szybciej wracasz do sprawności, minimalizujesz ryzyko powikłań i masz pewność, że Twoje zdrowie jest w rękach specjalistów."
+        },
+        {
+          "src": "/kompleksowa_terapia.webp",
+          "title": "Kompleksowa oferta w jednym miejscu",
+          "description": "W naszym gabinecie w Szczecinie łączymy fizjoterapię ortopedyczną, neurologiczną, onkologiczną, stomatologiczną, trening medyczny, pilates i masaże. To oznacza, że zyskujesz pełną opiekę, bez potrzeby szukania kilku specjalistów - wszystko pod jednym dachem, w spójnej i profesjonalnej terapii."
+        },
+        {
+          "src": "/doswiadczony_zespol.webp",
+          "title": "Doświadczony i certyfikowany zespół",
+          "description": "Nasz zespół to fizjoterapeuci, masażyści i trenerzy z wieloletnim doświadczeniem, stale podnoszący kwalifikacje w najnowszych metodach terapeutycznych. Dzięki temu masz pewność, że otrzymujesz bezpieczną, skuteczną i nowoczesną rehabilitację w Szczecinie, a Twój powrót do zdrowia jest szybki i komfortowy."
+        }
+      ]
+    },
+    "aboutUs": {
+      "title": "Kim Jesteśmy?",
+      "subtitle": "Profesjonalna fizjoterapia w Szczecinie",
+      "content": "W PhysioCare łączymy doświadczenie, nowoczesne metody i indywidualne podejście, aby skutecznie przywracać sprawność i poprawiać komfort życia. Nasz zespół specjalistów oferuje fizjoterapię ortopedyczną, neurologiczną, onkologiczną, uroginekologiczną i stomatologiczną, trening medyczny, pilates oraz masaże terapeutyczne - wszystko w jednym miejscu, w Szczecinie.",
+      "linkText": "Poznaj nasz zespół"
+    },
+    "contact": {
+      "title": "Zapraszamy do Kontaktu",
+      "nameLabel": "Imię",
+      "emailLabel": "Email",
+      "messageLabel": "Treść wiadomości",
+      "submitButton": "Wyślij",
+      "attachmentLabel": "Załącz pliki",
+      "success": "Wiadomość wysłana :)",
+      "formErrors": {
+        "email": "niepoprawny email",
+        "name": {
+          "max": "imię musi mieć maksymalnie 20 znaków",
+          "required": "to pole jest wymagane"
+        },
+        "message": {
+          "required": "to pole jest wymagane"
+        },
+        "file": {
+          "maxAmmount": "Możesz wysłać maksymalnie 3 pliki.",
+          "maxSize": "Jeden z plików przekracza 4MB.",
+          "format": "Niedozwolony format pliku (tylko .jpg, .jpeg, .png, .pdf)."
+        },
+        "general": "ups! coś poszło nie tak"
+      }
+    }
+  },
+  "offer": {
+    "title": "Jakie problemy pomożemy ci rozwiązać?",
+    "items": [
+      {
+        "src": "/fizjoterapia_ortopedyczna.webp",
+        "title": "Fizjoterapia ortopedyczna",
+        "content": [
+          "Fizjoterapia ortopedyczna w gabinecie PhysioCare w Szczecinie skierowana jest do pacjentów z dysfunkcjami układu ruchu, urazami oraz przeciążeniami mięśniowo-stawowymi. Pomagamy osobom po kontuzjach, zabiegach operacyjnych oraz z przewlekłymi dolegliwościami bólowymi.",
+          "Terapia opiera się na indywidualnej diagnostyce, terapii manualnej, ćwiczeniach, których celem jest przywrócenie sprawności i komfortu życia."
+        ]
+      },
+      {
+        "src": "/fizjoterapia_neurologiczna.webp",
+        "title": "Fizjoterapia neurologiczna",
+        "content": [
+          "Oferujemy fizjoterapię neurologiczną w Szczecinie dla pacjentów z chorobami i zaburzeniami układu nerwowego. Skierowana jest do osób po udarach, z chorobami neurologicznymi (np. stwardnieniem rozsianym) oraz zaburzeniami koordynacji i kontroli ruchu.",
+          "Proces rehabilitacji prowadzony jest w bezpiecznym tempie, z naciskiem na poprawę funkcji ruchowych, samodzielności oraz poprawie jakości codziennego życia pacjenta."
+        ]
+      },
+      {
+        "src": "/fizjoterapia_onkologiczna.webp",
+        "title": "Fizjoterapia onkologiczna",
+        "content": [
+          "W PhysioCare prowadzimy fizjoterapię onkologiczną w Szczecinie, wspierając pacjentów w trakcie oraz po leczeniu onkologicznym. Terapia pomaga poprawić ruchomość, zredukować obrzęki oraz przywrócić sprawność po zabiegach i leczeniu systemowym.",
+          "Każdy plan terapii jest dostosowany do aktualnego stanu zdrowia pacjenta, z zachowaniem pełnego bezpieczeństwa i empatii."
+        ]
+      },
+      {
+        "src": "/fizjoterapia_stomatologiczna.webp",
+        "title": "Fizjoterapia stomatologiczna (staw skroniowo-żuchwowy)",
+        "content": [
+          "Specjalizujemy się w fizjoterapii stomatologicznej w Szczecinie, obejmującej terapię stawu skroniowo-żuchwowego (SSŻ). Pomagamy pacjentom z dolegliwościami takimi jak bruksizm, ból szczęki, trzaski w stawie, blokowanie żuchwy czy napięcie mięśni twarzy.",
+          "Terapia obejmuje pracę manualną, terapię punktów spustowych oraz przygotowanie do zabiegów stomatologicznych i rehabilitację po nich."
+        ]
+      },
+      {
+        "src": "/fizjoterapia_uroginekologiczna.webp",
+        "title": "Fizjoterapia uroginekologiczna",
+        "content": [
+          "Prowadzimy fizjoterapię uroginekologiczną w Szczecinie, skierowaną do kobiet w ciąży, po porodzie oraz z problemami mięśni dna miednicy. Terapia pomaga m.in. przy nietrzymaniu moczu, obniżeniu narządów, rozejściu kresy białej oraz innych bólach miednicy. Z fizjoterapii uroginekologicznej mogą korzystać także mężczyźni z problemami urologicznym oraz po zabiegach urologicznych.",
+          "Pracujemy w atmosferze pełnego komfortu, z indywidualnym podejściem i nowoczesnymi metodami terapeutycznymi."
+        ]
+      },
+      {
+        "src": "/fizjoterapia_kobiet_w_ciazy.webp",
+        "title": "Fizjoterapia kobiet w ciąży i po porodzie",
+        "content": [
+          "Oferujemy fizjoterapię kobiet w ciąży i po porodzie w Szczecinie, której celem jest zmniejszenie dolegliwości bólowych towarzyszących w trakcie ciąży oraz wspieranie aktywności fizycznej w trakcie ciąży i połogu.",
+          "Terapia obejmuje ćwiczenia, trening medyczny, masaż oraz edukację, dostosowane do etapu ciąży lub połogu."
+        ]
+      },
+      {
+        "src": "/fizjoterapia_pediatryczna.webp",
+        "title": "Fizjoterapia pediatryczna i gimnastyka korekcyjna",
+        "content": [
+          "W PhysioCare prowadzimy fizjoterapię dzieci w Szczecinie, w tym gimnastykę korekcyjną wspierając prawidłowy rozwój ruchowy najmłodszych.",
+          "Pomagamy w korekcji wad postawy, poprawie koordynacji, siły i sprawności ruchowej dzieci, pracując w przyjaznej i bezpiecznej atmosferze."
+        ]
+      },
+      {
+        "src": "/trening_medyczny.webp",
+        "title": "Trening medyczny/personalny",
+        "content": [
+          "Trening medyczny w Szczecinie to połączenie fizjoterapii i aktywności ruchowej. Jest idealnym rozwiązaniem dla osób po urazach, z bólem przewlekłym oraz dla pacjentów chcących bezpiecznie wrócić do sportu lub codziennej aktywności.",
+          "Każdy trening jest indywidualnie dopasowany i prowadzony pod okiem specjalistów."
+        ]
+      },
+      {
+        "src": "/pilates.webp",
+        "title": "Pilates",
+        "content": [
+          "Oferujemy pilates w Szczecinie w formie zajęć indywidualnych, duetów oraz małych grup. Pilates jest formą aktywności fizycznej dla każdego, kto chce wypróbować nową formę ruchu lub szuka aktywności dla siebie.",
+          "Zajęcia są prowadzone na matach z użyciem dodatkowego sprzętu jak hantelki czy koła do pilatesu."
+        ]
+      },
+      {
+        "src": "/masaz_leczniczy.webp",
+        "title": "Masaż leczniczy i relaksacyjny",
+        "content": [
+          "Wykonujemy masaż leczniczy i relaksacyjny w Szczecinie, który pomaga w redukcji bólu, napięcia mięśniowego oraz stresu. Oferujemy m.in. masaż klasyczny, drenaż limfatyczny, masaż kobiet w ciąży oraz masaże specjalistyczne.",
+          "Masaż jest doskonałym uzupełnieniem fizjoterapii oraz skuteczną formą regeneracji."
+        ]
+      },
+      {
+        "src": "/kobido.webp",
+        "title": "Masaż Kobido",
+        "content": [
+          "W ofercie gabinetu znajduje się również masaż Kobido w Szczecinie - liftingujący masaż twarzy, który poprawia napięcie skóry, redukuje napięcia mięśniowe i wspiera naturalne procesy regeneracyjne."
+        ]
+      }
+    ]
+  },
+  "team": {
+    "title": "Poznaj nasz zespół",
+    "members": {
+      "dominik": {
+        "src": "/Dominik_Chmura.webp",
+        "name": "Dominik Chmura",
+        "description": "<p>Dominik Chmura jest doświadczonym fizjoterapeutą w Szczecinie oraz właścicielem gabinetu fizjoterapii PhysioCare w Szczecinie. Specjalizuje się w pracy z pacjentami wymagającymi fizjoterapii ortopedycznej, neurologicznej, kardiologicznej, pulmonologicznej oraz onkologicznej, pomagając osobom zmagającym się z bólem, ograniczeniami ruchowymi, urazami oraz chorobami przewlekłymi.</p><h3>Zakres specjalizacji i obszary pracy</h3><p>Na co dzień prowadzi rehabilitację w gabinecie i na terenie Szczecina, łącząc nowoczesne metody terapeutyczne z indywidualnie dopasowanym planem leczenia. Jego celem jest nie tylko redukcja dolegliwości bólowych, ale przede wszystkim przywracanie sprawności, poprawa jakości życia oraz bezpieczny powrót pacjentów do codziennej aktywności.</p><h3>Podejście do pacjenta i skuteczność terapii</h3><p>Pacjenci cenią Dominika za empatię, skuteczność terapii oraz partnerskie podejście, które pozwala budować atmosferę zaufania i poczucia bezpieczeństwa. W swojej pracy stawia na edukację pacjenta, motywowanie do aktywnego udziału w procesie leczenia oraz kompleksowe wsparcie na każdym etapie rehabilitacji.</p><h3>Lider zespołu PhysioCare w Szczecinie</h3><p>Jako szef gabinetu PhysioCare w Szczecinie Dominik dba o wysoki standard usług, spójne i holistyczne podejście do fizjoterapii oraz indywidualne traktowanie każdej osoby trafiającej pod opiekę zespołu. Dzięki temu PhysioCare jest miejscem, w którym pacjenci mogą liczyć na profesjonalną i skuteczną fizjoterapię w Szczecinie.</p>"
+      },
+      "patrycja": {
+        "src": "/Patrycja_Makowska.webp",
+        "name": "Patrycja Makowska",
+        "description": "<p>Patrycja jest technikiem masażystą, fizjoterapeutką w trakcie kształcenia oraz trenerką personalną pracującą w gabinecie fizjoterapii PhysioCare w Szczecinie. Jest studentką ostatniego roku fizjoterapii na Wyższej Szkole Edukacji i Terapii w Szczecinie. Doświadczenie zawodowe zdobywała podczas praktyk w wielu szczecińskich placówkach, pracując z pacjentami o zróżnicowanych potrzebach terapeutycznych.</p><p>Posiada kwalifikacje technika masażysty, trenera personalnego, instruktora fitness oraz pole dance. W trakcie studiów szczególną uwagę poświęciła zagadnieniom takim jak fizjoterapia kobiet w ciąży i po porodzie, fizjoterapia uroginekologiczna oraz fizjoterapia ortopedyczna pacjentów w różnym wieku. Ostatni rok studiów przeznacza na intensywne doskonalenie się w tych obszarach.</p><h3>Do Patrycji można umówić się na:</h3><ul><li>trening medyczny i personalny w Szczecinie,</li><li>masaż, w tym masaż kobiet w ciąży w Szczecinie,</li><li>gimnastykę korekcyjną dla dzieci,</li><li>pilates w Szczecinie (zajęcia 1:1, 1:2 oraz w małych grupach do 3 osób).</li></ul><h3>kusrsy i szkolenia:</h3><ul><li>Kompleksowa fizjoterapia w uroginekologii (moduł I),</li><li>Bark - nie musi być skomplikowany,</li><li>Przepuklina i rozejście kresy,</li><li>Wpływ obniżenia narządów na czynności fizjologiczne miednicy mniejszej,</li><li>technik masażysta.</li></ul><p>Dzięki połączeniu wiedzy akademickiej, doświadczenia praktycznego oraz pasji do ruchu Patrycja skutecznie wspiera pacjentów poszukujących fizjoterapii i treningu medycznego w Szczecinie, dbając o bezpieczeństwo, funkcjonalność i komfort terapii.</p>"
+      },
+      "beata": {
+        "src": "/Beata_Piskorska.webp",
+        "name": "Beata Piskorska",
+        "description": "<p>Beata jest doświadczoną masażystką pracującą w gabinecie masażu PhysioCare w Szczecinie. Specjalizuje się w różnorodnych technikach masażu, które wspierają regenerację organizmu, redukcję napięć mięśniowych oraz poprawę samopoczucia pacjentów.</p><p>W swojej codziennej pracy wykonuje zarówno masaż relaksacyjny i klasyczny, jak i masaż leczniczy w Szczecinie, dostosowany do indywidualnych potrzeb pacjenta. Szczególną uwagę poświęca precyzji oraz komfortowi osób korzystających z terapii.</p><h3>Zakres masaży wykonywanych przez Beatę:</h3><ul><li>masaż klasyczny,</li><li>masaż relaksacyjny,</li><li>masaż leczniczy w Szczecinie,</li><li>masaż Kobido (liftingujący masaż twarzy),</li><li>drenaż limfatyczny,</li><li>masaż antycellulitowy,</li><li>masaż świecą, bambusem oraz bańką chińską,</li><li>masaż kobiet w ciąży w Szczecinie.</li></ul><p>Beata traktuje masaż jako połączenie wiedzy, techniki i troski o dobro drugiego człowieka. Ukończyła również kurs pierwszej pomocy przedmedycznej. Regularnie rozwija swoje kompetencje - w najbliższym czasie planuje szkolenia z zakresu pilatesu, aerobiku oraz taping'u twarzy, który będzie stanowił uzupełnienie masażu Kobido.</p><p>Dzięki indywidualnemu podejściu oraz szerokiej ofercie zabiegów Beata pomaga pacjentom szukającym profesjonalnego masażu w Szczecinie, skutecznej regeneracji oraz chwili głębokiego relaksu.</p>"
+      },
+      "joanna": {
+        "src": "/Joanna_Pogorelo.webp",
+        "name": "Joanna Pogoreło",
+        "description": "<p>Asia jest doświadczoną fizjoterapeutką w gabinecie fizjoterapii w Szczecinie, specjalizującą się w fizjoterapii stomatologicznej oraz terapii dysfunkcji stawu skroniowo-żuchwowego.</p><p>Pomaga pacjentom dolegliwościami takimi jak bruksizm, ból szczęki, blokowanie stawu skroniowo-żuchwowego, przemieszczenie krążka stawowego czy nadmierne napięcie mięśni twarzy i żuchwy. W swojej pracy zajmuje się również przygotowaniem pacjentów do zabiegów stomatologicznych, w tym ekstrakcji zębów, oraz rehabilitacją po leczeniu dentystycznym. Prowadzi również pacjentów ortopedycznych, neurologicznych i kardiologicznych.</p><h3>Zakres terapii prowadzonych przez Asię:</h3><ul><li>fizjoterapię stomatologiczną (SSŻ) w Szczecinie,</li><li>terapię stawu skroniowo-żuchwowego,</li><li>terapię blizn i punktów spustowych,</li><li>drenaż limfatyczny,</li><li>trening medyczny i funkcjonalny,</li><li>masaż kobiet w ciąży,</li><li>zabiegi z zakresu fizykoterapii.</li></ul><h3>kusrsy i szkolenia:</h3><ul><li>masaż tkanek głębokich oraz rozluźnianie mięśniowo-powięziowe,</li><li>PFS - trener personalny,</li><li>stawy skroniowo-żuchwowe - diagnostyka i terapia (moduł I i II),</li><li>taping rehabilitacyjny.</li></ul><p>Dzięki indywidualnemu podejściu oraz nowoczesnym metodom terapeutycznym Asia skutecznie pomaga pacjentom szukającym fizjoterapii stomatologicznej w Szczecinie oraz kompleksowej rehabilitacji.</p>"
+      }
+    }
+  },
+  "pricing": {
+    "title": "Cennik",
+    "services": [
+      {
+        "category": "Pilates",
+        "items": [
+          {
+            "name": "Pojedyncze wejście",
+            "price": "50 zł"
+          },
+          { "name": "karnet na 4 wejścia", "price": "170 zł" },
+          { "name": "zajęcia indywidualne", "price": "160 zł" }
+        ]
+      },
+      {
+        "category": "Treningi",
+        "items": [
+          { "name": "Trening medyczny", "price": "160 zł" },
+          { "name": "Trening personalny", "price": "160 zł" },
+          { "name": "Treningi w parze", "price": "200 zł" }
+        ]
+      },
+      {
+        "category": "Masaże",
+        "items": [
+          { "name": "Masaż klasyczny", "price": "160 zł" },
+          { "name": "Kobido", "price": "200 zł" },
+          { "name": "Taping twarzy", "price": "30 zł" },
+          { "name": "Masaż gorącymi kamieniami (30min)", "price": "120 zł" },
+          { "name": "Masaż gorącymi kamieniami (60min)", "price": "200 zł" },
+          { "name": "Masaż relaksacyjny", "price": "160 zł" }
+        ]
+      },
+      {
+        "category": "Fizjoterapia",
+        "items": [
+          { "name": "Konsultacja (30min)", "price": "110 zł" },
+          { "name": "Terapia manualna (30min)", "price": "110 zł" },
+          { "name": "Terapia blizn", "price": "160 zł" },
+          { "name": "Terapia punktów spustowych", "price": "180 zł" },
+          { "name": "Kinesiotaping", "price": "30/50 zł" },
+          { "name": "Rehabilitacja stomatologiczna", "price": "180 zł" },
+          { "name": "Wizyta domowa", "price": "250 zł" }
+        ]
+      },
+      {
+        "category": "Fizykoterapia",
+        "items": [
+          {
+            "name": "Elektroterapia/Ultradźwięki/Laser/Pole magnetyczne (1 staw)",
+            "price": "25 zł"
+          },
+          { "name": "Fala uderzeniowa (1 zabieg)", "price": "60 zł" }
+        ]
+      }
+    ]
+  },
+  "faq": {
+    "items": [
+      {
+        "q": "Jak wygląda pierwsza wizyta?",
+        "a": "Pierwsza wizyta obejmuje szczegółowy wywiad, ocenę funkcjonalną oraz ustalenie indywidualnego planu terapii. W wielu przypadkach już podczas pierwszego spotkania rozpoczynamy terapię, aby jak najszybciej zmniejszyć dolegliwości bólowe."
+      },
+      {
+        "q": "Jak się przygotować do wizyty?",
+        "a": "Ubierz wygodny strój, który nie krępuje ruchów. Jeśli posiadasz wyniki badań (RTG, MRI, USG), zabierz je ze sobą."
+      },
+      {
+        "q": "Ile trwa terapia?",
+        "a": "Standardowo sesja trwa 45-60 minut. Długość oraz częstotliwość wizyt zależą od diagnozy i postępów."
+      },
+      {
+        "q": "Czy mogę odwołać wizytę?",
+        "a": "Tak, prosimy o informację najpóźniej 24 godziny przed wizytą, aby móc udostępnić termin innym pacjentom. Wizyta odwołana w ten sam dzień może wiązać się z opłatą."
+      },
+      {
+        "q": "Czy oferujecie fizjoterapię kobiet w ciąży i po porodzie?",
+        "a": "Tak. Prowadzimy fizjoterapię kobiet w ciąży i po porodzie w Szczecinie, obejmującą terapię bólu pleców, trening medyczny, masaż oraz fizjoterapię uroginekologiczną. Wszystkie zabiegi są bezpieczne i dostosowane do etapu ciąży lub połogu."
+      },
+      {
+        "q": "Czy możliwa jest wizyta domowa?",
+        "a": "Tak, oferujemy wizyty domowe w Szczecinie i okolicach. Prosimy o kontakt telefoniczny lub mailowy w celu ustalenia szczegółów i dostępności terminów."
+      },
+      {
+        "q": "Czy przyjmujecie dzieci?",
+        "a": "Tak. Oferujemy fizjoterapię dzieci i gimnastykę korekcyjną w Szczecinie, wspierając prawidłowy rozwój ruchowy oraz korekcję wad postawy."
+      },
+      {
+        "q": "Jak umówić wizytę w PhysioCare w Szczecinie?",
+        "a": "Wizytę można umówić telefonicznie, mailowo, przez aplikację Booksy lub przez formularz kontaktowy dostępny na stronie internetowej gabinetu PhysioCare w Szczecinie."
+      },
+      {
+        "q": "Czy muszę mieć skierowanie, aby umówić wizytę?",
+        "a": "Nie. Fizjoterapia w PhysioCare w Szczecinie odbywa się prywatnie, dlatego nie jest wymagane skierowanie lekarskie. Wystarczy umówić wizytę i zgłosić swoje dolegliwości. Jeśli posiadasz skierowanie, możesz je zabrać na wizytę, ale nie jest to konieczne."
+      }
+    ]
+  }
+}

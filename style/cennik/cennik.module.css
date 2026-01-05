@@ -1,0 +1,85 @@
+.section {
+  padding-inline: 8%;
+  margin-top: 2rem;
+}
+
+.lead {
+  background-color: var(--secondary);
+  color: var(--background);
+  padding: 1rem 1.25rem;
+  text-align: center;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 1.25rem;
+  margin-top: 1.5rem;
+}
+
+.card {
+  position: relative;
+  background-color: var(--secondary);
+  padding: 1rem 1rem 1.25rem 1rem;
+}
+
+.curve {
+  width: 100%;
+  height: 1.5rem;
+  fill: var(--secondary);
+  display: block;
+}
+
+.category {
+  text-align: center;
+}
+
+.row {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 0.5rem;
+  padding-block: 0.35rem;
+  margin-top: 1rem;
+  box-shadow: 0 10px 10px -10px rgba(0, 0, 0, 0.6);
+}
+
+.name {
+  color: var(--background);
+}
+
+.dots {
+  color: var(--accent);
+  letter-spacing: 2px;
+  white-space: nowrap;
+}
+
+.price {
+  min-width: max-content;
+  font-family: var(--heading-font);
+  font-size: 1.3rem;
+  font-weight: 600;
+  color: var(--accent);
+  text-shadow: 3px 3px 5px rgba(0, 0, 0, 0.4);
+}
+
+.noteBox {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  margin-top: 1.5rem;
+}
+
+.note {
+  background-color: var(--secondary);
+  color: var(--background);
+  padding: 0.75rem 1rem;
+  width: 100%;
+  text-align: center;
+}
+
+@media (max-width: 900px) {
+  .grid {
+    grid-template-columns: 1fr;
+  }
+}
