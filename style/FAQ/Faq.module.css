@@ -1,4 +1,6 @@
 .section {
-  padding-inline: 10%;
+  padding-inline: 5vw;
   margin-top: 2rem;
+  max-width: 70rem;
+  margin-inline: auto;
 }

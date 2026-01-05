@@ -166,6 +166,14 @@
 @media (max-width: 1000px) {
   .header {
     padding-inline: 1rem;
+    flex-wrap: wrap;
+  }
+
+  .header img {
+    display: block;
+    flex-grow: 1;
+    max-width: 20rem;
+    margin-left: auto;
   }
 
   .nav {
