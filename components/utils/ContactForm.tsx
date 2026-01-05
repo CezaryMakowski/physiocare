@@ -63,8 +63,8 @@ export default function ContactForm() {
       } else {
         setIsSuccess(true);
         setTimeout(() => setIsSuccess(false), 2000);
-        // reset();
-        // setSelectedFiles([]);
+        reset();
+        setSelectedFiles([]);
       }
     } catch (err) {
       console.error(err);

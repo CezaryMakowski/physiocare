@@ -5,7 +5,6 @@ import { usePathname, useRouter } from "@/i18n/routing";
 import Select, { SingleValue } from "react-select";
 import styles from "@/style/utils/LangSelect.module.css";
 import Image from "next/image";
-import { useEffect } from "react";
 
 type LanguageOption = { value: string; icon: string };
 
@@ -31,7 +30,7 @@ export default function LangSelect() {
       value={selectedOption}
       options={countries}
       styles={{
-        indicatorsContainer: (provided) => ({ display: "none" }),
+        indicatorsContainer: () => ({ display: "none" }),
         control: (provided) => ({
           ...provided,
           border: "none",
