@@ -40,7 +40,7 @@ export async function POST(req: NextRequest) {
   );
   try {
     const { data, error } = await resend.emails.send({
-      from: `${name} <kontakt.physiocare.com.pl>`,
+      from: `${name} <kontakt@physiocare.com.pl>`,
       to: ["chmura.fizjoterapia@gmail.com"],
       replyTo: email,
       subject: `masz nową wiadomość od ${name}`,
