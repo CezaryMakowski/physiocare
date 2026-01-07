@@ -47,7 +47,7 @@ export default function Footer() {
           </ul>
         </div>
         <div className={styles.media}>
-          <Link
+          {/* <Link
             href="https://www.instagram.com/physiocarefizjoterapia/"
             target="_blank"
             rel="noopener noreferrer"
@@ -59,7 +59,7 @@ export default function Footer() {
               height={40}
               className={styles.icon}
             />
-          </Link>
+          </Link> */}
           <Link
             href="https://www.instagram.com/physiocarefizjoterapia/"
             target="_blank"

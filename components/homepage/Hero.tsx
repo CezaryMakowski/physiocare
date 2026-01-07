@@ -43,7 +43,7 @@ export default function Hero() {
             height={50}
           />
         </Link>
-        <Link
+        {/* <Link
           href="https://www.instagram.com/physiocarefizjoterapia/"
           target="_blank"
           rel="noopener noreferrer"
@@ -54,7 +54,7 @@ export default function Hero() {
             width={50}
             height={50}
           />
-        </Link>
+        </Link> */}
       </div>
       <div className={styles.swiper}>
         <Image
