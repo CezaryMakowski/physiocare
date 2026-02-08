@@ -24,7 +24,32 @@ const leagueSpartan = League_Spartan({
 export const metadata: Metadata = {
   title: "PhysioCare - Fizjoterapia i Rehabilitacja",
   description:
-    "Profesjonalny gabinet fizjoterapeutyczny i rehabilitacyjny w Szczecinie",
+    "Profesjonalny gabinet fizjoterapeutyczny i rehabilitacyjny w Szczecinie. Kompleksowa fizjoterapia, rehabilitacja oraz masaże w Szczecinie dla dorosłych, dzieci, kobiet w ciąży.",
+  authors: [{ name: "Cezary Makowski" }],
+  creator: "Cezary Makowski",
+  applicationName: "PhysioCare",
+  metadataBase: new URL("https://physiocare.com.pl"),
+  openGraph: {
+    type: "website",
+    url: "https://physiocare.com.pl",
+    title: "PhysioCare - Fizjoterapia i Rehabilitacja",
+    description:
+      "Profesjonalny gabinet fizjoterapeutyczny i rehabilitacyjny w Szczecinie. Kompleksowa fizjoterapia dla dorosłych i dzieci.",
+    siteName: "PhysioCare",
+    images: [
+      {
+        url: "https://physiocare.com.pl/logo.svg",
+        width: 400,
+        height: 400,
+        alt: "PhysioCare Logo",
+      },
+    ],
+  },
+  icons: {
+    icon: "https://physiocare.com.pl/logo.svg",
+    shortcut: "https://physiocare.com.pl/logo.svg",
+    apple: "https://physiocare.com.pl/logo.svg",
+  },
 };
 
 export default async function RootLayout({
