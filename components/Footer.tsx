@@ -61,13 +61,26 @@ export default function Footer() {
             />
           </Link> */}
           <Link
+            href="https://booksy.com/pl-pl/309116_physiocare-fizjoterapia_fizjoterapia_18078_szczecin"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <Image
+              src="/Booksy.svg"
+              alt="Booksy logo"
+              width={40}
+              height={40}
+              className={styles.icon}
+            />
+          </Link>
+          <Link
             href="https://www.instagram.com/physiocarefizjoterapia/"
             target="_blank"
             rel="noopener noreferrer"
           >
             <Image
               src="/instagram.svg"
-              alt="Instagram"
+              alt="Instagram logo"
               width={40}
               height={40}
               className={styles.icon}

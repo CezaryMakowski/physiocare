@@ -43,6 +43,13 @@ export default function Hero() {
             height={50}
           />
         </Link>
+        <Link
+          href="https://booksy.com/pl-pl/309116_physiocare-fizjoterapia_fizjoterapia_18078_szczecin"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <Image src="/Booksy.svg" alt="logo Booksy" width={50} height={50} />
+        </Link>
         {/* <Link
           href="https://www.instagram.com/physiocarefizjoterapia/"
           target="_blank"
