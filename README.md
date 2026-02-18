@@ -1,36 +1,152 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Physiocare - Strona Internetowa
 
-## Getting Started
+Nowoczesna, responsywna strona internetowa dla kliniki fizjoterapii Physiocare, zbudowana z wykorzystaniem Next.js i React. Projekt wspiera wielojęzyczną treść (polski, angielski, niemiecki).
 
-First, run the development server:
+## 🎯 Funkcje
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+- **Wielojęzyczność**: Wsparcie dla polskiego, angielskiego i niemieckiego
+- **SEO Optimized**: Dynamiczne sitemap i robots.txt
+- **Responsywny Design**: Dostosowany do urządzeń mobilnych, tabletów i desktopów
+- **Formularze Kontaktowe**: Integracja z Resend do wysyłania wiadomości e-mail
+- **Galereria Zdjęć**: Slider z technologią Swiper
+- **FAQ Section**: Interaktywna sekcja często zadawanych pytań
+
+## 📁 Struktura Projektu
+
+```
+physiocare/
+├── app/                       # Next.js App Router
+│   ├── [locale]/             # Dynamic routing dla lokalizacji
+│   │   ├── layout.tsx        # Root layout
+│   │   ├── page.tsx          # Strona główna
+│   │   ├── cennik/           # Substrona cennika
+│   │   ├── faq/              # Substrona FAQ
+│   │   ├── oferta/           # Substrona oferty
+│   │   └── zespol/           # Substrona zespołu
+│   ├── api/                  # API Routes
+│   │   └── send/             # Endpoint do wysyłania wiadomości
+│   ├── robots.ts             # Konfiguracja robots.txt
+│   └── sitemap.ts            # Dynamiczny sitemap
+├── components/               # Komponenty React
+│   ├── homepage/             # Komponenty strony głównej
+│   │   ├── AboutUs.tsx
+│   │   ├── Contact.tsx
+│   │   ├── Hero.tsx
+│   │   ├── Important.tsx
+│   │   ├── PhotoShowcase.tsx
+│   │   ├── PointsOfInterest.tsx
+│   │   └── TeamItem.tsx
+│   └── utils/                # Komponenty użytkowe
+│       ├── ActiveLink.tsx
+│       ├── ButtonStyle.tsx
+│       ├── ContactForm.tsx
+│       ├── FaqItem.tsx
+│       ├── LangSelect.tsx
+│       ├── Map.tsx
+│       ├── OfertaItem.tsx
+│       ├── RoundImg.tsx
+│       ├── Slide.tsx
+│       └── TeamItem.tsx
+├── i18n/                     # Konfiguracja internacjonalizacji
+│   ├── request.ts
+│   └── routing.ts
+├── lib/                      # Funkcje utility i typy
+│   └── types.ts
+├── messages/                 # Pliki tłumaczeń
+│   ├── en.json
+│   ├── de.json
+│   └── pl.json
+├── style/                    # CSS Modules
+├── public/                   # Zasoby publiczne
+│   ├── curve.tsx             # SVG curves
+│   ├── waves.tsx             # SVG waves
+│   ├── locales/              # Flagi i ikony lokalizacji
+│   └── showcase/             # Zdjęcia galerii
+├── package.json
+├── tsconfig.json
+├── next.config.ts
+└── middleware.ts             # Middleware Next.js
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## 🛠️ Dostępne Skrypty
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+```bash
+# Uruchamia serwer deweloperski
+npm run dev
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+# Buduje projekt do produkcji
+npm run build
 
-## Learn More
+# Uruchamia built projekt
+npm start
 
-To learn more about Next.js, take a look at the following resources:
+# Sprawdza linting
+npm run lint
+```
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## 🌍 Internacjonalizacja
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+Projekt wspiera trzy języki:
 
-## Deploy on Vercel
+- **PL** - Polski
+- **EN** - Angielski
+- **DE** - Niemiecki
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+Tłumaczenia przechowywane są w katalogach `messages/`:
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+- `messages/pl.json` - Polskie tłumaczenia
+- `messages/en.json` - Angielskie tłumaczenia
+- `messages/de.json` - Niemieckie tłumaczenia
+
+Routing obsługiwany jest automatycznie przez Next.js - trasy zawierają parametr `[locale]`.
+
+## 📧 Wysyłanie E-maili
+
+Projekt używa `Resend` do wysyłania wiadomości e-mail z formularza kontaktowego. Endpoint: `/api/send`
+
+Konfiguracja wymaga ustawienia klucza API w zmiennych środowiskowych:
+
+```
+RESEND_API_KEY=your_api_key_here
+```
+
+## 🎨 Styling
+
+Projekt używa **CSS Modules** do stylowania komponentów. Każdy komponent ma odpowiadający plik `.module.css`.
+
+Dostęp do stylów:
+
+```typescript
+import styles from './Component.module.css';
+
+export default function Component() {
+  return <div className={styles.container}></div>;
+}
+```
+
+## 📱 SEO
+
+Projekt zawiera:
+
+- Dynamiczny `sitemap.ts` dla SEO
+- `robots.ts` do kontroli webcrawlerów
+- Metadata w layoutach Next.js
+
+## 🔧 TypeScript
+
+Projekt jest w pełni napisany w TypeScript. Konfiguracja znajduje się w `tsconfig.json`.
+
+## 📝 Linting
+
+Projekt używa ESLint do kontroli jakości kodu:
+
+```bash
+npm run lint
+```
+
+## Kontakt
+
+Jeśli chcesz nawiązać współpracę lub masz pytania, skontaktuj się ze mną:
+
+- Imię i nazwisko: Cezary Makowski
+- E-mail: cezary.makowski96@gmail.com
