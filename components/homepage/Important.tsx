@@ -12,7 +12,7 @@ export default function Important() {
       <div className={styles.images}>
         <RoundImg
           className={styles.bigImage}
-          src="/PhysioCare_welcomes.webp"
+          src="/PhysioCare_welcomes.png"
           alt="jakieś zdjęcie"
           size={600}
         />
