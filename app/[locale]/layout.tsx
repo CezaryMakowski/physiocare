@@ -45,11 +45,6 @@ export const metadata: Metadata = {
       },
     ],
   },
-  icons: {
-    icon: "https://physiocare.com.pl/logo.svg",
-    shortcut: "https://physiocare.com.pl/logo.svg",
-    apple: "https://physiocare.com.pl/logo.svg",
-  },
 };
 
 export default async function RootLayout({
