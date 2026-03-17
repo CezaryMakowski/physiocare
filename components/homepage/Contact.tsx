@@ -15,7 +15,7 @@ export default function Contact() {
         <ContactForm />
       </WavesStyling>
       <div className={styles.contactWrapper}>
-        <Link href="tel:+48501530155" className={styles.contactInfo}>
+        <Link href="tel:+48884423772" className={styles.contactInfo}>
           <Image src="/phone.svg" alt="telefon do nas" width={60} height={60} />
           <p>+48 884 423 772</p>
         </Link>
