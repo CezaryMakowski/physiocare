@@ -41,7 +41,11 @@ export default function OfertaItem({
             {paragraph}
           </p>
         ))}
-        <LinkStyle className={styles.btn} text="umów się na wizytę" href="#" />
+        <LinkStyle
+          className={styles.btn}
+          text="umów się na wizytę"
+          href="/#kontakt"
+        />
       </div>
       <svg
         className={styles.curve}
